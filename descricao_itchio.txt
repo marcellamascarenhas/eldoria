@@ -1,0 +1,59 @@
+⚔️ ELDORIA — Jogo de Estratégia por Turnos
+
+"Há séculos, o reino de Eldoria vive sob a sombra de um antigo Dragão adormecido..."
+
+Eldoria é um jogo de estratégia por turnos feito em Python + Pygame. Controle cinco heróis com habilidades únicas, destrua as fortalezas que prendem o Dragão e enfrente a fera em batalha épica!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 COMO JOGAR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Destrua as 3 fortalezas na ordem indicada
+2. Colete poções (HP) e pergaminhos (+ataque) pelo mapa
+3. Visite o Santuário Sagrado (canto inferior direito)
+4. Derrote o Dragão e salve Eldoria!
+
+Atenção: o Dragão acorda quando a última fortaleza cai e começa a perseguir seus heróis!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🧙 OS HERÓIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚔️  Guerreiro     — +20% de dano. O mais forte no ataque direto.
+🏹  Arqueiro      — 30% de chance de dano crítico (dobrado).
+💚  Curandeira    — Cura e revive aliados. Não pode ser revivida!
+🔮  Mago          — Alcance de ataque de 3 células (outros: 1).
+🛡️  Escudeira     — Divide o dano com aliados protegidos (50/50).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎮 CONTROLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1–5       Selecionar herói
+Setas     Mover herói
+Espaço    Atacar fortaleza / Dragão
+C         Curandeira cura aliado adjacente
+V         Curandeira revive aliado caído
+P         Escudeira protege aliado adjacente
+R         Reiniciar partida
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💻 INSTALAÇÃO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Requer Python 3.8+ e Pygame 2:
+
+  pip install pygame
+  python eldoria.py
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🛠️ TECNOLOGIAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Python 3 + Pygame 2
+• Pathfinding BFS para a IA do Dragão
+• Sistema de áudio multi-canal com fallback gracioso
+• Janela redimensionável com tela virtual escalável
+
+Desenvolvido como projeto acadêmico.
+Código-fonte disponível no GitHub.
